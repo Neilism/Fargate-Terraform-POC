@@ -1,0 +1,16 @@
+{
+  "name": "NeilsTestApi",
+  "version": "1.0.0",
+  "description": "Restful API for fargate",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "start": "node --experimental-modules server.js"
+  },
+  "author": "Neil Gomes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
